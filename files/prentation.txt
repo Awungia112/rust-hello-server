@@ -1,0 +1,40 @@
+﻿Every program is a set of instructions, whether it’s to add two numbers or send a request over the internet. Compilers and interpreters take human-readable code and convert it to computer-readable machine code. 
+
+In a compiled language, the target machine directly translates the program. 
+In an interpreted language, the source code is not directly translated by the target machine. Instead, a different program, aka the interpreter, reads and executes the code.
+
+
+Compiled Languages
+Compiled languages are converted directly into machine code that the processor can execute. As a result, they tend to be faster and more efficient to execute than interpreted languages. They also give the developer more control over hardware aspects, like memory management and CPU usage
+Compiled languages need a “build” step – they need to be manually compiled first. You need to “rebuild” the program every time you need to make a change
+Examples of pure compiled languages are C, C++, Erlang, Haskell, Rust, and Go.
+Interpreted Languages
+Interpreters run through a program line by line and execute each command. 
+Interpreted languages were once significantly slower than compiled languages. But, with the development of just-in-time compilation, that gap is shrinking.
+
+Examples of common interpreted languages are PHP, Ruby, Python, and JavaScript.Python, for example, can be executed as either a compiled program or as an interpreted language in interactive mode. On the other hand, most command line tools, CLIs, and shells can theoretically be classified as interpreted languages.
+
+Advantages of compiled languages
+Programs that are compiled into native machine code tend to be faster than interpreted code. This is because the process of translating code at run time adds to the overhead, and can cause the program to be slower overall.
+Disadvantages of compiled languages
+The most notable disadvantages are:
+    • Additional time needed to complete the entire compilation step before testing 
+    • Platform dependence of the generated binary code 
+Advantages of interpreted languages
+Interpreted languages tend to be more flexible, and often offer features like dynamic typing and smaller program size. Also, because interpreters execute the source program code themselves, the code itself is platform independent.
+Disadvantages of interpreted languages
+The most notable disadvantage is typical execution speed compared to compiled languages.
+
+
+Rust is a compiled language, unlike Python, which is interpreted. It is thus fast, but must be compiled for the specific architecture it is running on. Rust uses manual memory management, unlike Go, which relies on an automatic garbage collector system for memory management.
+
+Rust is an ahead-of-time compiled language, meaning you can compile a program and give the executable to someone else, and they can run it even without having Rust installed. 
+
+Does Rust compile to C++?
+As the Rust compiler does not directly know how to compile C or C++ code (or code from any other language, which presents a C interface), it is necessary to compile your non-Rust code ahead of time. For embedded projects, this most commonly means compiling the C/C++ code to a static archive (such as cool-library.
+
+How to directly compile a rust program
+``` rustc main.rs```
+Run the program
+```./main```
+
