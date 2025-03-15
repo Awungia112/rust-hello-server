@@ -11,4 +11,13 @@ This a minimal rust web server built.
 ## 📌Usage
 **Clone this repository**
 ```sh
- git clone 
+ git clone https://github.com/Awungia112/rust-hello-server.git
+```
+**Create a folder where files would be uploaded to in the root of your project directory.**
+```sh
+/files
+```
+**Build and run the project**
+```sh
+cargo run
+```
