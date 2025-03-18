@@ -1,0 +1,9 @@
+[package]
+name = "rust-upload"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = { version = "0.7.3", features = ["multipart"] }
+tokio = { version = "1.35.0", features = ["full"] }
+clap = { version = "4.4", features = ["derive"] }

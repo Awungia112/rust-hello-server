@@ -1,0 +1,1 @@
+/home/awungia/Projects/RUST/explore/target/debug/explore: /home/awungia/Projects/RUST/explore/public/index.html /home/awungia/Projects/RUST/explore/src/loadfile.rs /home/awungia/Projects/RUST/explore/src/main.rs
